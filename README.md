@@ -21,3 +21,16 @@ Flask-based resume parser and job recommendation app using ML models for text ca
 - numpy
 - re
 - pickle
+  
+  ## Project Structure
+
+- `app.py`: Main application script
+- `templates/resume.html`: HTML template for the web interface
+- `models/`: Directory to store the machine learning models
+
+  ## Ensure the models are in the `models` directory:
+
+- `rf_classifier_categorization.pkl`
+- `tfidf_vectorizer_categorization.pkl`
+- `rf_classifier_job_recommendation.pkl`
+- `tfidf_vectorizer_job_recommendation.pkl`
